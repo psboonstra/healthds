@@ -3,11 +3,12 @@
 \docType{data}
 \name{growth_data}
 \alias{growth_data}
-\title{Age, weight, and height of 8 made-up people}
+\title{Age, weight, and height of two newborns}
 \format{
-A data frame with 8 rows and 3 variables:
+A data frame with 8 rows and 4 variables:
 \describe{
-\item{age_group}{person's age category}
+\item{id}{three-number subject ID}
+\item{months}{age in months at visit}
 \item{weight_kg}{person's weight in kilograms}
 \item{height_cm}{person's height in centimeters}
 }
@@ -16,7 +17,8 @@ A data frame with 8 rows and 3 variables:
 growth_data
 }
 \description{
-A made-up dataset containing the age, weight, and height of 8 people. It is
+A made-up dataset containing an id, age, weight, and height of two newborns
+followed monthly for the first three months after birth. These data are
 used during the videos to demonstrate data wrangling ideas.
 }
 \keyword{datasets}
